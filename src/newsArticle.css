@@ -1,0 +1,26 @@
+.newsArticle{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.newsArticle:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.newsArticleLeft{
+    color: #0177b7;
+    margin-right: 5px;
+}
+.newsArticleLeft .MuiSvgIcon-root{
+    font-size: 15px;
+}
+.newsArticleRight{
+    flex: 1;
+}
+.newsArticleRight h4{
+    font-size: 14px;
+}
+.newsArticleRight p{
+    font-size: 12px;
+    color: gray;
+}
